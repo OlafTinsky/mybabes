@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My AI Chatbot Central</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="logo">
+            <a href="#">
+                <!---img src="logo.jpg" alt="My AI Chatbot Central"> ---> My AI Chatbot Central
+            </a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="https://chat.openai.com" target="_blank">ChatGPT</a></li>
+                <li><a href="https://gemini.google.com" target="_blank">Gemini</a></li>
+                <li><a href="https://claude.ai/" target="_blank">Claude</a></li>
+                <li><a href="https://www.perplexity.ai" target="_blank">Perplexity</a></li>
+                <li><a href="https://x.com/i/grok" target="main-content">Grok.ai</a></li>    
+                <!---<li><a href="Contas" target="main-content">Settings</a></li> --->                   
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Section -->
+    <main>
+        <div class="request-section">
+            <h1>Please submit your request</h1>
+            <textarea id="requestInput" placeholder="Enter your request here..." maxlength="4000"></textarea>
+        </div>
+
+        <div class="checkboxes">
+            <label><input type="checkbox" id="chatGPT"> ChatGPT</label>
+            <label><input type="checkbox" id="gemini"> Gemini</label>
+            <label><input type="checkbox" id="claude"> Claude</label>
+            <label><input type="checkbox" id="perplexity"> Perplexity</label>
+            <label><input type="checkbox" id="grokAI"> Grok.ai</label>
+        </div>
+
+        <div class="button-container">
+            <button id="submitButton">Make it happen</button>
+        </div>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>© 2025 Cristiano Costa. All rights reserved</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
